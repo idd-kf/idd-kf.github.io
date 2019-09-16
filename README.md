@@ -21,16 +21,16 @@ ___
     - ***Internshsips***
 
 ## Todo List
-    - Research Precedents
-    - Design Mockup of UI
-    - Style Guide
-    - HTML Markup Development
-    - CSS Development
-    - Javascript & JQuery Implementation
-    - QA Review
-    - Apply Changes if Needed
-    - Peer QA Review
-    - Apply Changes if Needed
+- Research Precedents
+- Design Mockup of UI
+- Style Guide
+- HTML Markup Development
+- CSS Development
+- Javascript & JQuery Implementation
+- QA Review
+- Apply Changes if Needed
+- Peer QA Review
+- Apply Changes if Needed
 
 ___
 

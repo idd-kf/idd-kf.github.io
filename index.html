@@ -1,6 +1,6 @@
 <!--
   Katherine Feldman 
-  Wedsday, September 18, 2019
+  Wednesday, September 18, 2019
   Assignment 1: HTML Layout
   index.html
 -->
@@ -8,145 +8,72 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Interaction (Re)Design</title>
+		<title>IDD Student Details</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/index.css">
+		<link href="https://fonts.googleapis.com/css?family=Palanquin+Dark:400,500,600|Roboto:100,300,400,500&display=swap" rel="stylesheet"> 
 		
 	</head>
 	<body>
 		<header>
+
 			<div id="top">
-				<button type="button"><img src="#" alt="hamburger menu"/></button>
-				<button type="button"><img src="#" alt="gbc-home"/></button>
-				<h1>Interaction Design & Development program (G103)</h1>
-				<nav>
-					<ul class="sliding-menu">
-						<li><a href="#top">Overview</a></li>
-						<li><a href="#our-students">Our Students</a></li>
-						<li><a href="#opportunities">Opportunities</a></li>
-					</ul>
+				<div class="banner">
+					<a href="https://www.georgebrown.ca/"><img class="logo-header-img" src="img/logo/gbc-logo.svg" alt="George Brown College"/></a>
+					<a href="" class="menu-header-a"><img class="menu-header-img" src="img/icons/hamburger-menu.svg" alt="hamburger menu"/></a>
+				</div>
+				<nav class="menu">
+					<a href="#top">Overview</a>
+					<a href="#our-students">Our Students</a>
+					<a href="#opportunities">Partnerships</a>
 				</nav>
+				<div class="sub-banner">
+					<img class="sub-banner-img" src="img/header-background2.svg" alt="Interaction Design & Development"/>
+					<img class="sub-banner-rotate-img" src="img/header-background3.svg" alt="Interaction Design & Development"/>
+					<h1 class="compressed-view">Interaction Design </br>And Development</h1>
+					<h1 class="full-view">Interaction Design And Development</h1>
+					<div class="sub-heading">Inspiring the future of design</div>
+				</div>
 			</div>
 		</header>
 		<main>
-			<section>
-				<h2>Overview</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sapiente officia quidem fugit ipsa in non saepe voluptatibus dicta illo perspiciatis fuga error sit quae dolore temporibus obcaecati, debitis repellendus!</p>
-			</section>
-			<section>
-				<h2>Courses</h2>
-				<h3>Semester 1</h3>
-				<ul>
-					<li>Course 1</li>
-					<li>Course 2</li>
-					<li>Course 3</li>
-					<li>Course 4</li>
-					<li>Course 5</li>
-					<li>Course 6</li>
-				</ul>
-				<h3>Semester 2</h3>
-				<ul>
-					<li>Course 1</li>
-					<li>Course 2</li>
-					<li>Course 3</li>
-					<li>Course 4</li>
-					<li>Course 5</li>
-					<li>Course 6</li>
-				</ul>
-				<h3>Semester 3</h3>
-				<ul>
-					<li>Course 1</li>
-					<li>Course 2</li>
-					<li>Course 3</li>
-					<li>Course 4</li>
-					<li>Course 5</li>
-					<li>Course 6</li>
-				</ul>
-				<h3>Semester 4</h3>
-				<ul>
-					<li>Course 1</li>
-					<li>Course 2</li>
-					<li>Course 3</li>
-					<li>Course 4</li>
-					<li>Course 5</li>
-					<li>Course 6</li>
-				</ul>
-				<h3>Semester 5</h3>
-				<ul>
-					<li>Course 1</li>
-					<li>Course 2</li>
-					<li>Course 3</li>
-					<li>Course 4</li>
-					<li>Course 5</li>
-					<li>Course 6</li>
-				</ul>
-				<h3>Semester 6</h3>
-				<ul>
-					<li>Course 1</li>
-					<li>Course 2</li>
-					<li>Course 3</li>
-					<li>Course 4</li>
-					<li>Course 5</li>
-					<li>Course 6</li>
-				</ul>
-			</section>
-			<section id="#our-students">
-				<h2>Student Successes</h2>
-				<article>
-					<h3>Name 1's Journey</h3>
-					<button type="button"><img src="#" alt="name1-img"/></button>
-					<!--Images and videos appear as a modal popup when button is clicked-->
-				</article>
-				<article>
-					<h3>Name 2's Journey</h3>
-					<button type="button"><img src="#" alt="name2-img"/></button>
-				</article>
-				<article>
-					<h3>Name 3's Journey</h3>
-					<button type="button"><img src="#" alt="name3-img"/></button>
-				</article>
-				<article>
-					<h3>Name 4's Journey</h3>
-					<button type="button"><img src="#" alt="name4-img"/></button>
-				</article>
-				<article>
-					<h3>Name 5's Journey</h3>
-					<button type="button"><img src="#" alt="name5-img"/></button>
-				<article>
-			</section>
-			<section>
-				<h3>Testimonials</h3>
-				<div>Name 1</div>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iure error molestias ut. Doloremque, sunt. Adipisci dicta, voluptas quia modi voluptates aliquid exercitationem explicabo! Facere dolore aspernatur saepe ipsam earum.</p>
-				<div>Name 2</div>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iure error molestias ut. Doloremque, sunt. Adipisci dicta, voluptas quia modi voluptates aliquid exercitationem explicabo! Facere dolore aspernatur saepe ipsam earum.</p>
-				<div>Name 3</div>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iure error molestias ut. Doloremque, sunt. Adipisci dicta, voluptas quia modi voluptates aliquid exercitationem explicabo! Facere dolore aspernatur saepe ipsam earum.</p>
-				<div>Name 4</div>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iure error molestias ut. Doloremque, sunt. Adipisci dicta, voluptas quia modi voluptates aliquid exercitationem explicabo! Facere dolore aspernatur saepe ipsam earum.</p>
-			</section>
-			<section id="#opportunities">
-				<h2>Opportunities</h2>
-				<h3>Career Pathways</h3>
-				<img src="#" alt="career-pathways-img"/>
+			<div class="main-page">
+				<section class = "section-class">
+					<h2 class="main-heading">Importance of interaction design</h2>
+					<div class="divider"></div>
+					<img class="supporting-img img1" src="img/teamwork-img.svg" alt="Student teamwork"/>
+					<p class="content-text text1">At George Brown College, our focus is preparing students for successes outside of the class room. Our Interaction Design & Development program has a uniquely specialized faculty that encourages students to think critically and work in agile studio style environments.</p>
+				</section>
 
-				<h3>Internship Partners</h3>
-				<ul>
-					<li><a href="#"><img src="#" alt="partner logo"/></a></li>
-					<li><a href="#"><img src="#" alt="partner logo"/></a></li>
-					<li><a href="#"><img src="#" alt="partner logo"/></a></li>
-					<li><a href="#"><img src="#" alt="partner logo"/></a></li>
-					<li><a href="#"><img src="#" alt="partner logo"/></a></li>
-					<li><a href="#"><img src="#" alt="partner logo"/></a></li>
-				</ul>
-			</section>
+				<section class = "section-class">
+					<h2 class="our-students-heading">Our Students</h2>
+					<div class="divider"></div>
+					<img class="supporting-img img2" src="img/vr-img.svg" alt="our-students-img"/>
+					<p class="content-text text2">Our students are constantly evolving and developing their skills. They are trained using the full Adobe suite, HTML, CSS, Javascript, Axure and Maya’s 3D development software. We are very proud of the work that they are producing.  </p>
+					<ul class="student-work-collection">
+						<li class="student-work"><img src="img/Hnefaltafl-Render-Final.jpeg.png" alt="student-work1-img"/></li>
+						<li class="student-work"><img src="img/feldman.katherine.a1.jpg" alt="student-work3-img"/></li>
+						<li class="student-work"><img src="img/photo-manipulation.jpg" alt="student-work7-img"/></li>
+					</ul>
+				</section>
+				
+				<section id="#partnerships" class = "section-class">
+					<h2 class="partnership-heading">Partnerships</h2>
+					<div class="divider"></div>
+					<img class="supporting-img img3" src="img/partnerships-img.svg" alt="our-students-img"/>
+					<p class="content-text text3">We are thrilled to provide connections with our partnerships to nurture our students growth after they graduate. <a href="https://www.georgebrown.ca/industry/"> Click here</a> if you are interested in being one of our partners.</p>
+				</section>
+			</div>
 		</main>
-		<footer>
-			<a href="#">Qualifications</a>
-			<a href="#">Additional information</a>
-			<a href="#">How to apply</a>
-			<a href="#">FAQ</a>
-			<a href="#">Contact</a>
-			<p>copyright</p><img src="#" alt="copyright-img"/>
+		<footer class="footer-design">
+			<div class="social-media-text">Connect with us everywhere</div>
+				<div class="social-media-icons">
+					<a href="https://www.instagram.com/gbcollege/"><img class="social-media-images" src="img/icons/instagram-icon.svg" alt="instagram"/></a>
+					<a href="https://www.facebook.com/georgebrowncollege/"><img class="social-media-images fbook" src="img/icons/facebook-icon.svg" alt="facebook"/></a>
+					<a href="https://twitter.com/GBCollege"><img class="social-media-images twitter" src="img/icons/twitter-icon.svg" alt="twitter"/></a>
+				</div>
+			<div class="copyright">&copy; 2019 Kat - all rights reserved</div>
 		</footer>
 	
 	</body>

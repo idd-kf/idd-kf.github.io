@@ -1,3 +1,255 @@
-body {
-	background-color: tomato;
+h1.compressed-view{
+	position: absolute;
+	top: 33%;
+	left: 10%;
+	width: 100%;
+	font-family: 'Palanquin Dark', sans-serif;
+	font-weight: 400;
+	font-size: 2em;
+	color: #efefea;
+	letter-spacing: 0.045em;
+	line-height: 95%;
+}
+
+
+h1.full-view, .sub-banner-rotate-img{
+	display: none;
+}
+
+h2{
+	font-family: 'Palanquin Dark', sans-serif;
+	font-weight: 400;
+	font-size: 1.2em;
+	text-align: center;
+	line-height: 200%;
+	margin-top: 6%;
+}
+
+.sub-heading{
+	position: absolute;
+	bottom: 24%;
+	right: 10%;
+	font-size: 1.1em;
+	font-family: 'Palanquin Dark', sans-serif;
+	color: #efefea;
+}
+
+.sub-banner-img, .sub-banner-rotate-img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.banner{
+	display: grid;
+	grid-template-columns: auto auto;
+
+	padding: 1.5em;
+	margin: 0%;
+	max-width: 100%;
+	max-height: 4em;
+}
+
+.logo-header-img{
+	max-height: 2em;
+}
+
+.menu-header-a{
+	display: flex;
+	justify-content: end;
+}
+
+.menu-header-img{
+	justify-self: right;
+	max-height: 2em;
+}
+
+.menu{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-auto-rows: 1fr;
+	grid-gap:1.5em;
+
+	background-color: #005392;
+	padding-right: 15%;
+	padding-left: 15%;
+}
+
+nav{
+	visibility: hidden;
+}
+
+.menu a{
+	background-color: #EFEFEA;
+	color: #101F22;
+	padding: .2em .2em .2em .2em;
+	border-radius: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.supporting-img{
+	padding: 3em 6em 3em 6em;
+}
+
+.divider{
+	background-color: #ffd84a;
+	padding-top: .25em;
+	margin-top: 6%;
+	margin-left: 40%;
+	margin-right: 40%;
+} 
+
+.content-text{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: .95em;
+	padding: 0em 2.5em 0em 2.5em;
+	text-align: center;
+}
+
+.student-work-collection{
+	display: grid;
+	grid-template-columns: auto;
+
+}
+
+.student-work{
+	align-self: stretch;
+	padding: 2em;
+	
+	
+}
+
+.footer-design{
+	display: grid;
+	grid-template-rows: auto auto auto;
+	grid-gap:1em;
+	
+
+	background-color: #3F403E;
+	margin-top: 2em;
+	padding: 1em 2em 1em 3em;
+	color: #EFEFEA;
+}
+
+.social-media-text{
+	font-family: 'Palanquin Dark', sans-serif;
+	font-weight: 300;
+	font-size: 1.2em;
+	letter-spacing: 0.045em;
+	line-height: 95%;
+
+}
+
+.social-media-icons{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 4fr;
+	grid-gap: 1em;
+
+}
+
+.social-media-images{
+	min-height: 1.5em;
+}
+
+
+.copyright{
+	font-size: .8em;
+}
+
+@media only screen and (min-width: 800px){
+
+	.banner, .compressed-view, .sub-banner-img, .divider, .student-work-collection, .menu{
+		display: none;
+	}
+
+	.sub-banner-rotate-img{
+		display: initial;
+		position: relative;
+		max-width: 100%;
+		max-height: 100%;
+	}
+
+	h1.full-view{
+		display: initial;
+		position: absolute;
+		top: 20%;
+		width: 100%;
+		font-family: 'Palanquin Dark', sans-serif;
+		font-weight: 500;
+		font-size: 2.5em;
+		color: #efefea;
+		letter-spacing: 0.045em;
+		line-height: 95%;
+		text-align: center;
+	}
+
+	.sub-heading{
+		position: absolute;
+		font-size: 1.75em;
+		font-family: 'Palanquin Dark', sans-serif;
+	
+	}
+
+	.main-page{
+		display: grid;
+		grid-template-columns: 2fr 2fr 2fr;
+		grid-gap: 1em;
+		padding: 5% 5%;
+	}
+
+	.section-class{
+		display: grid;
+		grid-template-rows: 2fr 1fr 2fr;
+	}
+
+	.supporting-img{
+		padding: 0%;
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	  }
+
+	.main-heading{
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+
+	.our-students-heading{
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+
+	.partnerships-heading{
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+
+	.text1{
+		grid-row-start: 3;
+		grid-row-end: 4;
+	}
+
+	.text1{
+		grid-row-start: 3;
+		grid-row-end: 4;
+	}
+
+	.text1{
+		grid-row-start: 3;
+		grid-row-end: 4;
+	}
+
+	.footer-design{
+		padding-top: 2.25em;
+	}
+
+	.social-media-icons{
+		display: flex;
+		justify-content: left;
+		padding: .75em 0em;
+	}
+
 }

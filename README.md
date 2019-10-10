@@ -2,23 +2,16 @@
 ___
 
 ## Features
-- Icons
+- Social media icons
 - More white space
-- Cleaner / more **modern** look
-- Replace some text with icons
+- Cleaner / more **modern**/Minimalistic look
 
 ## Content
-- Logo + alternative logos
-- **Testimonials** from students & alums
-- Courses available & *detailed descriptions with images or videos*
+- Logo
 - Overview
-- Contact us
-- FAQ & additional info
-- Career pathways
 - Student successes
-- How to qualify
+- Industry partnerships
 - Copyright
-- ***Internshsips***
 
 ## Todo List
 - Research Precedents
@@ -40,7 +33,7 @@ ___
 - [Sheridan Collage Course Page](https://academics.sheridancollege.ca/programs/bachelor-of-interaction-design)
 - [University of Toronto Course Page](https://ischool.utoronto.ca/areas-of-study/user-experience-design/)
 - [Seneca College Course Page](https://www.senecacollege.ca/programs/fulltime/INM.html)
-
+- [Brain Station Course Page](https://brainstation.io/)
 
 ### Design:
 #### Layout design:

@@ -1,4 +1,6 @@
 # Interactive Interfaces 1 - Student Course Page
+
+The goal of this page is to give employers the opportunity to understand what George Brown College offers in their Interaction Design Program. The section about our students describes some of the main software that is taught while the partnerships sections encourages employers the to connect with the school and students directly.
 ___
 
 ## Features

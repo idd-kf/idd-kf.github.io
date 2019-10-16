@@ -174,7 +174,7 @@ h2{
 	}
 
 	h1.full-view{
-		display: initial;
+		display: block;
 		position: absolute;
 		top: 20%;
 		width: 100%;
@@ -191,6 +191,7 @@ h2{
 		position: absolute;
 		font-size: 1.75em;
 		font-family: 'Palanquin Dark', sans-serif;
+		bottom: 44%;
 	
 	}
 
